@@ -71,6 +71,16 @@ p {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+#header .container {
+  position: relative;
+  bottom: 20%;
+}
+
+#header.header-bottom .container {
+  position: relative;
+  bottom: 60%;
+}
+
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -234,6 +244,10 @@ p {
   background: rgba(0, 0, 0, 0.9);
 }
 
+#header.header-top .cadre {
+  padding-top: 2rem;
+}
+
 #header.header-top .social-links,
 #header.header-top h2 {
   display: none;
@@ -270,6 +284,11 @@ p {
 /**
 * Desktop Navigation 
 */
+
+#navbar li a {
+  font-size: 1.25rem;
+}
+
 .navbar {
   padding: 0;
   margin-top: 35px;
